@@ -1,0 +1,13 @@
+# Secrets: never commit these
+client_secret*.json
+token.json
+
+# Dependencies
+node_modules/
+
+# Videos
+*.mp4
+*.mov
+*.mkv
+*.avi
+*.webm

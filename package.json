@@ -1,0 +1,20 @@
+{
+  "name": "toolupyoutube",
+  "version": "1.0.0",
+  "description": "Upload videos to your own YouTube channel with the YouTube Data API",
+  "type": "module",
+  "main": "upload.js",
+  "bin": {
+    "toolupyoutube": "upload.js"
+  },
+  "scripts": {
+    "upload": "node --use-system-ca upload.js"
+  },
+  "engines": {
+    "node": ">=22.15"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "googleapis": "^188.0.0"
+  }
+}
